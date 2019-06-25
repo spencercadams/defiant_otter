@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://localhost:1313/</loc>
+    <loc>https://spencercadams.github.io/defiant_otter/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://localhost:1313/posts/</loc>
+    <loc>https://spencercadams.github.io/defiant_otter/posts/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://localhost:1313/posts/running/</loc>
+    <loc>https://spencercadams.github.io/defiant_otter/posts/running/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://localhost:1313/posts/code-demo/</loc>
+    <loc>https://spencercadams.github.io/defiant_otter/posts/code-demo/</loc>
     <lastmod>2018-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://localhost:1313/categories/</loc>
+    <loc>https://spencercadams.github.io/defiant_otter/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://localhost:1313/tags/</loc>
+    <loc>https://spencercadams.github.io/defiant_otter/tags/</loc>
     <priority>0</priority>
   </url>
   
