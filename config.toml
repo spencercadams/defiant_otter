@@ -2,6 +2,7 @@ baseURL = "https://localhost:1313/"
 languageCode = "en-us"
 title = "Creativity confined virtually"
 theme = "hugo-bingo"
+publishDir = "docs"
 
 disableHugoGeneratorInject = true
 enableEmoji = true
