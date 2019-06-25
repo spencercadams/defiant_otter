@@ -1,0 +1,56 @@
+baseURL = "https://localhost:1313/"
+languageCode = "en-us"
+title = "Creativity confined virtually"
+theme = "hugo-bingo"
+
+disableHugoGeneratorInject = true
+enableEmoji = true
+footnoteReturnLinkContents = "↩"
+hasCJKLanguage = true
+
+[permalinks]
+  post = "/posts/:slug/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+#  [[menu.main]]
+#    identifier = "posts"
+#    name = "Posts"
+#    url = "/content/posts/"
+#    weight = 20
+
+[params]
+
+  [params.gravatar]
+    email = "spencercadams@gmail.com"
+
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/spencercadams"
+    weight = 20
+
+  [[params.social]]
+    icon = "twitter"
+    url = "https://twitter.com/adams_spencer"
+    weight = 30
+
+    [[params.social]]
+      icon = "medium"
+      url = "https://medium.com/@spencercadams"
+      weight = 50
+
+  [[params.social]]
+    icon = "stackoverflow"
+    url = "https://stackoverflow.com/users/8027889/spencer"
+    weight = 40
+
+  [[params.social]]
+    icon = "linkedin"
+    url = "https://www.linkedin.com/in/spencercadams/"
+    weight = 10
