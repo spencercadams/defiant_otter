@@ -6,10 +6,20 @@
     <description>Recent content in Home on Creativity confined virtually</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://spencercadams.github.io/defiant_otter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Postman with IBM Cloud API</title>
+      <link>https://spencercadams.github.io/defiant_otter/posts/postman-and-ibm-cloud/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spencercadams.github.io/defiant_otter/posts/postman-and-ibm-cloud/</guid>
+      <description>Using Postman with IBM Cloud Before we get started, make sure you have your environment setup and have documentation ready-at-will:
+ SoftLayer API IBM Cloud API IBM Cloud Docs  The Cloud Object Storage team put together a quick reference for their offering, available here. At the same time, this is specific to Object Storage provisioned within Classic Infrastructure. As Cloud Object Storage development has shifted to non-classic infrastructure provisioned COS, then I would advise setting up your own Postman library, but keep the other library for reference.</description>
+    </item>
     
     <item>
       <title>Running</title>
@@ -17,16 +27,8 @@
       <pubDate>Fri, 31 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://spencercadams.github.io/defiant_otter/posts/running/</guid>
-      <description>test working?</description>
-    </item>
-    
-    <item>
-      <title>Code Demo</title>
-      <link>https://spencercadams.github.io/defiant_otter/posts/code-demo/</link>
-      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://spencercadams.github.io/defiant_otter/posts/code-demo/</guid>
-      <description>Bash #!/bin/bash ###### CONFIG ACCEPTED_HOSTS=&amp;quot;/root/.hag_accepted.conf&amp;quot; BE_VERBOSE=false if [ &amp;quot;$UID&amp;quot; -ne 0 ] then echo &amp;quot;Superuser rights required&amp;quot; exit 2 fi genApacheConf(){ echo -e &amp;quot;# Host ${HOME_DIR}$1/$2 :&amp;quot; }  CoffeeScript grade = (student, period=(if b? then 7 else 6)) -&amp;gt; if student.excellentWork &amp;quot;A+&amp;quot; else if student.okayStuff if student.triedHard then &amp;quot;B&amp;quot; else &amp;quot;B-&amp;quot; else &amp;quot;C&amp;quot; class Animal extends Being constructor: (@name) -&amp;gt; move: (meters) -&amp;gt; alert @name + &amp;quot; moved #{meters}m.</description>
+      <description>What does it mean to Run? Recently read - A Shoe Dog Story - Nike founder and was motivated to run. I laced up my shoes, grabbed the leash and … ran. It&amp;rsquo;d been a couple of months since I ran, but I found it relaxing and taxing, at the same time.
+Breathing in-out, in-out and creating puddles as I run from all the sweat in the 90 degree heat, but loving it.</description>
     </item>
     
   </channel>

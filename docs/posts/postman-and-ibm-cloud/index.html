@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Using Postman with IBM Cloud API - Creativity confined virtually</title>
+    <base href="https://spencercadams.github.io/defiant_otter/">
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://spencercadams.github.io/defiant_otter/css/main.min.77a5141f9ea67f9ba748fc3698ced30b1fe5cbd999287eedeeef6263b735f340.css">
+</head>
+<body><header>
+    <nav class="breadcrumb">
+        
+        <a href="/defiant_otter/">/Home</a>
+        
+    </nav>
+</header>
+<div class="container">
+<main id="single">
+    <h1>Using Postman with IBM Cloud API</h1>
+    <h2><time datetime="2019-07-02T00:00:00&#43;0000">2019-07-02</time>
+</h2>
+    <section class="post-content">
+        
+
+<h2 id="using-postman-with-ibm-cloud">Using Postman with IBM Cloud</h2>
+
+<p>Before we get started, make sure you have your environment setup and have documentation ready-at-will:</p>
+
+<ul>
+<li><a href="https://sldn.softlayer.com/">SoftLayer API</a></li>
+<li><a href="https://cloud.ibm.com/apidocs">IBM Cloud API</a></li>
+<li><a href="https://cloud.ibm.com/docs">IBM Cloud Docs</a></li>
+</ul>
+
+<p>The Cloud Object Storage team put together a quick reference for their offering, available <a href="https://cloud.ibm.com/docs/services/cloud-object-storage?topic=cloud-object-storage-postman">here</a>.  At the same time, this is specific to Object Storage provisioned within Classic Infrastructure.  As Cloud Object Storage development has shifted to non-classic infrastructure provisioned COS, then I would advise setting up your own Postman library, but keep the other library for reference.</p>
+
+<p>For example, to leverage non-classic infrastructure Cloud Object Storage, you can provision a bucket for a Service Instance already created via:</p>
+
+<pre><code>PUT https://[endpoint_example=s3.us-south.objectstorage.softlayer.net]/[name_of_bucket]
+-H 'authorization: bearer &lt;IAM_token&gt;'
+-H 'ibm-service-instance-id: 40easdlv-EXAMPLE-efggrf-dsdf5234-b4af44'
+</code></pre>
+
+<p>The Service Instance ID is only available after provisioning Cloud Object Storage instance.  Which you can obtain when you LIST buckets:</p>
+
+<pre><code>GET https://s3.us-south.objectstorage.softlayer.net/[name_of_bucket]/
+-H 'authorization: bearer &lt;IAM_token&gt;'
+</code></pre>
+
+<p>To obtain the authorization, you can leverage the IBM Cloud CLI, after to login: <code>ibmcloud iam oauth-tokens</code></p>
+
+<p>Object Storage team recently established <a href="https://cloud.ibm.com/apidocs/cos/cos-configuration">Resource Configuration</a> to grab metadata and various ancillary data, which is helpful when S3 API is lacking and more development resources will be available in the coming months.</p>
+
+<p>I am hopeful that this feature request for a Postman library will obtain some traction within the Dev team at IBM Cloud = <a href="https://ibmcloud.ideas.aha.io/ideas/IDEA-I-2929">https://ibmcloud.ideas.aha.io/ideas/IDEA-I-2929</a></p>
+
+<p><em>Side note - IBM Cloud also has a <a href="https://ibm-cloud.github.io/tf-ibm-docs/">Terraform provider available</a>.  It is a self-created provider, outside of Hashicorp, but works.  You can follow the <a href="https://cloud.ibm.com/docs/terraform?topic=terraform-setup_cli">tutorial</a> to setup</em></p>
+
+    </section>
+</main>
+
+        </div><footer>
+    <span class="footer-text">Made with &lt;3 by Spencer Adams</a></span>
+</footer>
+
+<script src="https://spencercadams.github.io/defiant_otter/js/highlight.pack.13389e4e093fc0b3466287ead64c1f9fc3007d7703813a413de3f046ea09a346.js" integrity="sha256-EzieTgk/wLNGYofq1kwfn8MAfXcDgTpBPePwRuoJo0Y="></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
